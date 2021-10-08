@@ -163,13 +163,6 @@ class _ScanViewState extends State<QRScanView> with WidgetsBindingObserver {
         });
       }
     }).onError((error, stackTrace) => _controller.stopImageStream());
-    // qrCodeStream().listen((code) {
-    //   logger.d('扫描结果:$code');
-    //   widget.scanController.onQRCode(code);
-    // }, onError: (e) {
-    //   // 关闭的时候会提示错误
-    //   logger.d('qrCodeStream :$e');
-    // });
   }
 
   @override
