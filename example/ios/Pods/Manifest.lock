@@ -1,0 +1,41 @@
+PODS:
+  - camera (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+  - flutter_zxing (0.0.1):
+    - Flutter
+  - fluttertoast (0.0.2):
+    - Flutter
+    - Toast
+  - Toast (4.0.0)
+
+DEPENDENCIES:
+  - camera (from `.symlinks/plugins/camera/ios`)
+  - Flutter (from `Flutter`)
+  - flutter_zxing (from `.symlinks/plugins/flutter_zxing/ios`)
+  - fluttertoast (from `.symlinks/plugins/fluttertoast/ios`)
+
+SPEC REPOS:
+  trunk:
+    - Toast
+
+EXTERNAL SOURCES:
+  camera:
+    :path: ".symlinks/plugins/camera/ios"
+  Flutter:
+    :path: Flutter
+  flutter_zxing:
+    :path: ".symlinks/plugins/flutter_zxing/ios"
+  fluttertoast:
+    :path: ".symlinks/plugins/fluttertoast/ios"
+
+SPEC CHECKSUMS:
+  camera: b9eb73c055259c6f808a9da4a0d43780f6645281
+  Flutter: 50d75fe2f02b26cc09d224853bb45737f8b3214a
+  flutter_zxing: f4304ac8239ebf4c0ee94fbc6ea04927b4308219
+  fluttertoast: 6122fa75143e992b1d3470f61000f591a798cc58
+  Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
+
+PODFILE CHECKSUM: aafe91acc616949ddb318b77800a7f51bffa2a4c
+
+COCOAPODS: 1.10.2
