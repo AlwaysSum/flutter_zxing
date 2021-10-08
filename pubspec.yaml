@@ -29,7 +29,7 @@ flutter:
   plugin:
     platforms:
       android:
-        package: com.sunflower.flutter_zxing
+        package: com.example.flutter_zxing
         pluginClass: FlutterZxingPlugin
       ios:
         pluginClass: FlutterZxingPlugin
